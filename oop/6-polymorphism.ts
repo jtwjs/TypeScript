@@ -82,7 +82,7 @@
 
   class SweetCoffeeMaker extends CoffeeMachine {
     makeCoffee(shots: number): CoffeeCup {
-      const coffee = super.makeCoffee(shots):
+      const coffee = super.makeCoffee(shots);
       return {
         ...coffee,
         hasSugar: true,
